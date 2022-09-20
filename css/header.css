@@ -1,0 +1,19 @@
+.cabecalho {
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 5em;
+}
+
+.container__titulo {
+    padding-left: 1em;
+}
+
+.container__lista {
+    display: flex;
+    margin: ;
+}
