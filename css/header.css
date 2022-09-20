@@ -1,5 +1,6 @@
 .cabecalho {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container {
@@ -15,5 +16,23 @@
 
 .container__lista {
     display: flex;
-    margin: ;
+}
+
+.container__item {
+    padding: 0 1em;
+    margin: auto;
+}
+
+.container__link {
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+.container__botao {
+    display: flex;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
 }
