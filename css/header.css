@@ -46,9 +46,10 @@
     padding: 0 1em;
 }
 
-.link__botao {
+.botao__cadastrar > .botao__link {
     background-color: var(--vermelho);
-    padding: 0.5em 1em;
+    color: var(--cor-fundo);
+    padding: 0.8em 1em;
     border-radius: 8px;
 }
 
