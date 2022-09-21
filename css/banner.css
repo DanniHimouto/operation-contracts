@@ -1,0 +1,28 @@
+.banner {
+    text-align: center;
+    margin: 10em;
+}
+
+.container__banner {
+    padding: 0 13em;
+}
+
+.banner__unico {
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--vermelho);
+}
+
+.banner__titulo {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: var(--azul-black);
+    padding: 0.8em 0;
+}
+
+.banner__texto {
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cinza);
+}
