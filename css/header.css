@@ -1,13 +1,14 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
+    margin-top: 1.5em;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2em 5em;
+    margin: 0 8em;
 }
 
 .container__titulo {
@@ -16,6 +17,7 @@
 
 .container__lista {
     display: flex;
+    margin-right: auto;
 }
 
 .container__item {
@@ -26,13 +28,33 @@
 .container__link {
     text-decoration: none;
     color: var(--cinza);
+    font-weight: 500;
+    line-height: 24px;
 }
 
 .container__botao {
     display: flex;
+    margin-right: 8em;
 }
 
 .botao {
     display: flex;
     align-items: center;
+}
+
+.botao__entrar, .botao__cadastrar {
+    padding: 0 1em;
+}
+
+.link__botao {
+    background-color: var(--vermelho);
+    padding: 0.5em 1em;
+    border-radius: 8px;
+}
+
+.botao__link {
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--cinza);
 }
