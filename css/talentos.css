@@ -1,0 +1,33 @@
+.search__talents {
+    text-align: center;
+    margin-top: 8em;
+}
+
+.talents__container {
+    padding: 2em;
+}
+
+.talents__unico {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0.4em 1em;
+    background-color: var(--vermelho-transparente-1);
+    border-radius: 16px;
+    color: var(--vermelho);
+}
+
+.talents__titulo {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    padding: 0.5em 0;
+    color: var(--azul-black);
+}
+
+.talents__texto {
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cinza);
+    padding-bottom: 3em;
+}
