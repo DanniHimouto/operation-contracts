@@ -21,6 +21,9 @@
 
 .vaga {
     padding: 24px 24px 28px;
+    width: 720px;
+    border: 1px solid var(--borda-cinza);
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
