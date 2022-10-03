@@ -1,0 +1,56 @@
+.depoimento {
+    margin: 2em;
+}
+
+.depoimentos__container {
+    margin: 0 10em 12em 10em;
+    padding: 2em 1em 2em 1em;
+    border-radius: 20px;
+    background-color: var(--vermelho-transparente-2);
+}
+
+.depoimento__info {
+    padding: 2em;
+    text-align: center;
+}
+
+.depoimento__texto {
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.depoimento__titulo {
+    padding-top: 0.5em;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--azul-black);
+}
+
+.depoimento__perfil {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.depoimento__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 1em;
+    margin: auto;
+}
+
+.perfil__nome {
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--azul-black);
+}
+
+.perfil__talento {
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cinza);
+}
