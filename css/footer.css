@@ -1,0 +1,54 @@
+.formulario {
+    background-color: var(--cor-footer);
+    padding: 8em 0;
+}
+
+.container__formulario {
+    text-align: center;
+}
+
+.formulario__titulo {
+    padding-bottom: 0.5em;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--azul-black);
+}
+
+.formulario__texto {
+    padding-bottom: 2em;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cinza);
+}
+
+.formulario__email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email__info {
+    border-radius: 7px;
+    padding: 0.7em;
+    margin: 0 1.5em;
+    width: 320px;
+    border: 2px solid var(--borda-cinza);
+}
+
+.formulario__cadastrar {
+    text-decoration: none;
+    padding: 0.7em;
+    border-radius: 7px;
+    background-color: var(--vermelho);
+    color: var(--cor-fundo);
+}
+
+.copyright {
+    padding: 2.5em 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cinza-copy);
+}
