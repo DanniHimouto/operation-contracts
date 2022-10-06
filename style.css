@@ -1,10 +1,10 @@
 @import url(./css/header.css);
-@import url(/css/banner.css);
-@import url(/css/metricas.css);
-@import url(/css/talentos.css);
-@import url(/css/vagas.css);
-@import url(/css/depoimento.css);
-@import url(/css/footer.css);
+@import url(./css/banner.css);
+@import url(./css/metricas.css);
+@import url(./css/talentos.css);
+@import url(./css/vagas.css);
+@import url(./css/depoimento.css);
+@import url(./css/footer.css);
 
 :root {
     --fonte-principal: "Inter";
